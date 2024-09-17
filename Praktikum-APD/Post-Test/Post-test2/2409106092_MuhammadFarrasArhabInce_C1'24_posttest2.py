@@ -16,7 +16,7 @@ HSDgulaku = hargagula - diskongulaku
 HSDmaniskita = hargagula - diskonmaniskita
 HSDgunungmadu = hargagula - diskongunungmadu
 
-print(f"{nama} dengan NIM {nim} ingin membeli gula seharga Rp {harga_gula}")
+print(f"{nama} dengan NIM {nim} ingin membeli gula seharga Rp {hargagula}")
 print(f"jika dia membeli Gulaku ia harus membayar {HSDgulaku} setelah mendapat diskon 7%")
 print(f"jika dia membeli Manis Kita ia harus membayar {HSDmaniskita} setelah mendapat diskon 11%")
 print(f"jika dia membeli Gunung Madu ia harus membayar {HSDgunungmadu} setelah mendapat diskon 13%" )
