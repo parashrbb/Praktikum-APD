@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2409106092_MuhammadFarrasArhabInce_C1'24_posttest2"/>
+        <attribute name="authors" value="farra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-17 02:38:49 PM"/>
+        <attribute name="created" value="ZmFycmE7TEFQVE9QLVNRNDI4N1M0OzIwMjQtMDktMTY7MDg6NDc6MDUgQU07MjgyMg=="/>
+        <attribute name="edited" value="ZmFycmE7TEFQVE9QLVNRNDI4N1M0OzIwMjQtMDktMTc7MDI6Mzg6NDkgUE07NTsyOTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama, nim" type="String" array="False" size=""/>
+            <declare name="hargagula" type="Integer" array="False" size=""/>
+            <declare name="diskongulaku, diskonmaniskita, diskongunungmadu" type="Real" array="False" size=""/>
+            <declare name="HSDgulaku, HSDmaniskita, HSDgunungmadu" type="Real" array="False" size=""/>
+            <input variable="nama"/>
+            <input variable="nim"/>
+            <input variable="hargagula"/>
+            <assign variable="diskongulaku" expression="0.07"/>
+            <assign variable="diskonmaniskita" expression="0.11"/>
+            <assign variable="diskongunungmadu" expression="0.13"/>
+            <assign variable="diskongulaku" expression="hargagula*diskongulaku"/>
+            <assign variable="diskonmaniskita" expression="hargagula * diskonmaniskita"/>
+            <assign variable="diskongunungmadu" expression="hargagula * diskongunungmadu"/>
+            <assign variable="HSDgulaku" expression="hargagula - diskongulaku"/>
+            <assign variable="HSDmaniskita" expression="hargagula - diskonmaniskita"/>
+            <assign variable="HSDgunungmadu" expression="hargagula - diskongunungmadu"/>
+            <output expression="nama" newline="True"/>
+            <output expression="nim" newline="True"/>
+            <output expression="HSDgulaku" newline="True"/>
+            <output expression="HSDmaniskita" newline="True"/>
+            <output expression="HSDgunungmadu" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
