@@ -3,14 +3,14 @@ nim  = "2409106092"
 hargagula = 21000
 
 Diskon = {
-    "diskongulaku" : 0.07,
-    "diskonmaniskita" : 0.11,
-    "diskongunungmadu" : 0.13
+    "diskon_gulaku" : 0.07,
+    "diskon_manis_kita" : 0.11,
+    "diskon_gunung_madu" : 0.13
 }
 
-diskongulaku = hargagula * Diskon["diskongulaku"]
-diskonmaniskita = hargagula * Diskon["diskonmaniskita"]
-diskongunungmadu = hargagula * Diskon["diskongunungmadu"]
+diskongulaku = hargagula * Diskon["diskon_gulaku"]
+diskonmaniskita = hargagula * Diskon["diskon_manis_kita"]
+diskongunungmadu = hargagula * Diskon["diskon_gunung_madu"]
 
 HSDgulaku = hargagula - diskongulaku
 HSDmaniskita = hargagula - diskonmaniskita
